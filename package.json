@@ -1,0 +1,32 @@
+{
+  "name": "alpha13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mindtree",
+  "license": "ISC",
+  "dependencies": {
+    "contentful": "^4.3.0",
+    "fs": "0.0.1-security",
+    "gatsby": "^1.0.0-alpha13",
+    "gatsby-plugin-sass": "^0.1.2",
+    "gatsby-source-filesystem": "^1.0.0-alpha13",
+    "gatsby-transformer-json": "^1.0.0-alpha13",
+    "gatsby-typegen-filesystem": "^1.0.0-alpha13",
+    "graphql": "^0.9.6",
+    "json-query": "^2.2.2",
+    "node-sass": "^4.5.2",
+    "node-sass-loader": "^0.1.7",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "slug": "^0.9.1",
+    "typography": "^0.15.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.1",
+    "style-loader": "^0.17.0"
+  }
+}
