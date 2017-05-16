@@ -1,0 +1,14 @@
+{
+    "pathContext": {
+        "push_data": {
+            "slug": "ariel_24hrs",
+            "productName": "Ariel 24 Hours Fresh",
+            "productDescription": "Ariel 24 Hour Fresh is specially designed to help remove tough stains and provide your clothes with long lasting freshness. Perfect in your semi-automatic machine, as well as when handwashing, Ariel 24 Hour Fresh offers a wonderful laundry experience that gives you confidence all day long.",
+            "productPrice": "210.00",
+            "category": [
+                "Hand wash",
+                "Mild wash"
+            ]
+        }
+    }
+}

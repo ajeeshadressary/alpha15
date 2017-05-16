@@ -1,0 +1,44 @@
+{
+  "assetsByChunkName": {
+    "page-component---": [
+      "page-component----dfa1696987b41c6c8aca.js",
+      "page-component----dfa1696987b41c6c8aca.js.map"
+    ],
+    "commons": [
+      "commons-d41d8cd98f00b204e980.js",
+      "commons-d41d8cd98f00b204e980.js.map"
+    ],
+    "app": [
+      "app-8b908cef6abf21af9392.js",
+      "app-8b908cef6abf21af9392.js.map"
+    ],
+    "path---index": [
+      "path---index-586c7e095e534a3909ec.js",
+      "path---index-586c7e095e534a3909ec.js.map"
+    ],
+    "path---contact-us": [
+      "path---contact-us-586c7e095e534a3909ec.js",
+      "path---contact-us-586c7e095e534a3909ec.js.map"
+    ],
+    "path---ariel-topload": [
+      "path---ariel-topload-86138ca65d3caf074bf9.js",
+      "path---ariel-topload-86138ca65d3caf074bf9.js.map"
+    ],
+    "path---ariel-matic": [
+      "path---ariel-matic-7c3201f3ad3a3761532c.js",
+      "path---ariel-matic-7c3201f3ad3a3761532c.js.map"
+    ],
+    "path---ariel-brilliant": [
+      "path---ariel-brilliant-cead37bae0d20d07e020.js",
+      "path---ariel-brilliant-cead37bae0d20d07e020.js.map"
+    ],
+    "path---ariel-24-hrs": [
+      "path---ariel-24-hrs-f8f5757d91ecdbc85ce6.js",
+      "path---ariel-24-hrs-f8f5757d91ecdbc85ce6.js.map"
+    ],
+    "path---about-us": [
+      "path---about-us-586c7e095e534a3909ec.js",
+      "path---about-us-586c7e095e534a3909ec.js.map"
+    ]
+  }
+}

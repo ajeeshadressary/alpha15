@@ -1,0 +1,2 @@
+webpackJsonp([5,1],{"./.cache/json/ariel-topload.json":function(o,a){o.exports={pathContext:{push_data:{slug:"ariel_topload",productName:"Ariel Matic Top Load",productDescription:"Especially designed to be used in top loading machines, Ariel Matic offers brilliant stain removal for full loads. Not only that, but it provides deep down cleaning and long lasting freshness for any load.",productPrice:"115.00",category:["Top load wash","Hand wash","Front load wash"]}}}}});
+//# sourceMappingURL=path---ariel-topload-86138ca65d3caf074bf9.js.map
