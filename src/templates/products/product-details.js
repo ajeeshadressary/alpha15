@@ -1,7 +1,48 @@
 import React from 'react'
 import { Link } from 'react-router'
+import axios from "Axios";
+var toml = require("toml!../../../config.toml");
+console.log("INDIA",toml.name.first);
 
 export default class product extends React.Component {
+    componentDidMount(){
+        
+    axios.get("https://api.swiftype.com/api/v1/public/engines/search?q=the&engine_key=5CLQYDazDqWsZnFmNjpB",
+    {
+        "document_types": ['books'],
+        "filters": {"books": {"genre": 'fiction'}},
+        "per_page":10,
+        "page":1,
+        "fetch_fields":{"books":["author","genre"]},
+        "facets":{"books":["author","genre"]},
+
+    }
+).then((response) => {
+      console.log('Axios Data:',JSON.stringify(response));
+    }).catch(function(error) {
+      console.log(error);
+    });
+   /* var config = {
+  headers: {'X-My-Custom-Header': 'Header-Value'}
+};    
+    axios.post('https://api.swiftype.com/api/v1/engines/library/document_types/books/search', 
+    config,
+    {
+        "auth_token": "iiobB_py9ZVfboeF8soQ",
+        "q":"the",
+        "filters":{"books":{"genre":"fiction"}},
+        "per_page":5,
+        "page":1,
+        "fetch_fields":{
+          "books":["author","genre"]
+        }
+      }
+    )
+  .then(function(response){
+    console.log('saved successfully')
+  }); */
+
+    }
     render() {
         const listItems = this.props.pathContext.push_data.category.map((listValue,index) =>
             <li key={index}>{listValue}</li>

@@ -23,7 +23,7 @@ class Index extends React.Component {
     return (
       <div>
 	  <h1>Test Home Page Modifies</h1>
-	  <p>Uisng Netlify</p>
+	  <p>Using Netlify</p>
 	  </div>
     )
   }

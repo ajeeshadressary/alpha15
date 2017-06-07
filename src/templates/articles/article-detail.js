@@ -1,6 +1,7 @@
 ﻿import React from 'react'
 import { Link } from 'react-router'
 
+
 export default class article extends React.Component {
     render() {
         return (
