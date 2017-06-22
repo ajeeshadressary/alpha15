@@ -11,7 +11,7 @@
   "dependencies": {
     "contentful": "^4.3.0",
     "fs": "0.0.1-security",
-    "gatsby": "^1.0.0-alpha13",
+    "gatsby": "1.0.0-alpha13",
     "gatsby-plugin-sass": "^0.1.2",
     "gatsby-source-filesystem": "^1.0.0-alpha13",
     "gatsby-transformer-json": "^1.0.0-alpha13",
