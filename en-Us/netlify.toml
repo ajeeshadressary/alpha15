@@ -1,0 +1,39 @@
+# Global settings applied to the whole site.
+[build]
+  base    = "en-Us/src/"
+  publish = "en-Us/public"
+  command = "npm install && npm run build"
+
+# Production context: All deploys to the main
+# repository branch will inherit these settings.
+[context.production]
+  #command = "npm install && npm run build"
+  [context.production.environment]
+    #ACCESS_TOKEN = "super secret"
+    TOKEN="b3e9745fa4646362f09dedbd6604e4d4a9da2700b2aa0350e8e819de4733bed2"
+    HOST="cdn.contentful.com" 
+
+# Deploy Preview context: All Deploy Previews
+# will inherit these settings.
+[context.deploy-preview.environment]
+  #ACCESS_TOKEN = "not so secret"
+  TOKEN="a8334bc3e9e58fa85c683f6ea6eab352be763ca960586a040d1fd2199d696089"
+  HOST="preview.contentful.com"
+
+# Branch Deploy context: All deploys that are not in
+# an active Deploy Preview will inherit these settings.
+[context.branch-deploy]
+  #command = "make staging"
+[context.branch-deploy.environment]
+  #ACCESS_TOKEN = "not so secret1"
+  TOKEN="a8334bc3e9e58fa85c683f6ea6eab352be763ca960586a040d1fd2199d696089"
+  HOST="preview.contentful.com"  
+
+# Specific branch context: Deploys from this branch
+# will take these settings and override their
+# current ones.
+[context.feature]
+  #command = "make feature"
+
+[context."features/branch"]
+  #command = "gulp"
